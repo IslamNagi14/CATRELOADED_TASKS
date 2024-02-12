@@ -8,7 +8,7 @@ void main(void)
 		scanf("%d",&num);
 		sum+=num;
 	}
-	avg = sum / 10 ;
+	avg = sum / 10.0 ;
 	printf("the summation of your numbers is %d\n",sum);
 	printf("the average of your numbers is %.2f ",avg);
 	

@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main(void)
 {
-	int grade;
+	float grade;
 	printf("enter your grade :");
-	scanf("%d",&grade);
+	scanf("%f",&grade);
 	if ( grade >= 85)
 	{printf("Excellent");}
     else if ( grade >= 75)
