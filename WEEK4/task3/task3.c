@@ -13,7 +13,7 @@ void main (void)
     for (int i = 0; i < n;i++)
 	{
 		x = 0;
-		for(int k = 0;k < n;k++)
+		for(int k = 0;k < i;k++)
 		{
 			if( i == k )
 				continue;
@@ -26,7 +26,7 @@ void main (void)
 		switch(x)
 	    {
 			case 0:
-			printf("%d is uniqu element\n",arr[i]);
+			printf("%d  ",arr[i]);
 	    }
 	}
 	
