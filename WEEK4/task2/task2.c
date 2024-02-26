@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(void)
 {
-	/*int n,val;
+	int n,val;
 	printf("enter the size of your array : ");
 	scanf("%d",&n);
 	int arr[n];
@@ -27,6 +27,5 @@ void main(void)
 		}
 		
 	}
-	printf("the second largest elemnt is %d",arr[1]);*/
-	printf("%d",main());
+	printf("the second largest elemnt is %d",arr[1]);
 }
