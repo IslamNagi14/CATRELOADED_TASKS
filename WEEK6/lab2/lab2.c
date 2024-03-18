@@ -11,17 +11,18 @@ void main(void)
 	{
 		int i = 0;
 		lab :
-		for( ;i< (n + x);i++)
+		for( ;i< ts;i++)
 		{
 			printf("enter element-%d : ",i+1);
 			scanf("%d",ptr+i);
 		}
-		ts+=x;
+		
 		printf("do you want to add more elements(enter how many element you need more)if no enter '0' : ");
 		scanf("%d",&x);
+		ts+=x;
 		if(x)
 		{
-			ptr = (int*) realloc(ptr,(x+n) * sizeof(int));
+			ptr = (int*) realloc(ptr,ts * sizeof(int));
 			goto lab;
 		}
 		max = min = *(ptr+i);
